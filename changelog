@@ -1,0 +1,71 @@
+0.20 16dec2019
+* ported to python 3
+
+0.17 08mar2019
+* update install.py to use latest weewx 3 conventions
+	
+0.16 16jan2017
+* ensure that interval is at least 1 minute
+
+0.15 22nov2016
+* release the macosx components
+* minor consolidation for constants
+
+0.14 29aug2016
+* improve error handling when reading proc files
+
+0.13 27oct2015
+* include DRIVER_NAME hint for weewx 3.2
+
+0.12 14oct2015
+* update readme with weewx 3.x instructions
+* fixed bug in cookie
+
+0.11 18jul2015
+* added compatiblity for weewx 3.2.0
+* fixed update option
+
+0.10 19apr2015
+* ignore /var/lib/nfs mounts
+
+0.9 16mar2015
+* cmon is now dual use: driver or service
+* split platform-specific functions into separate classes
+
+0.8 12dec2014
+* added some rpi-specific calls
+
+0.7 07dec2014
+* default to disabled ups plots
+
+0.6 06dec2014
+* now compatible with weewx v3
+
+0.5 21aug2014
+* added compatibility with more recent apc ups
+
+0.4 12jun2014
+* fix counter wraparound for network
+
+0.3 19may2014
+* fix time_length values in the cmon skin
+
+0.2 02mar2014
+* use cmon_sqlite everywhere instead of computer_sqlite
+
+0.1 04feb2014
+* generalized implementation for temperatures
+* expanded the default schema
+* added option to specify schema in user/schemas.py or in weewx.conf
+* default to cmon.sdb rather than computer.sdb
+
+r789 21jan14
+* added support for cpu temperature
+* added support for apc ups devices
+* added cpu temperature for rpi
+
+r691 28oct13
+* fixed handling of max_age from config
+
+r690 22oct13
+* initial public release
