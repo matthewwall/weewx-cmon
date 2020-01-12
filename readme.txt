@@ -1,5 +1,6 @@
 cmon - Computer Monitor
 Copyright 2014 Matthew Wall
+Distributed under terms of the GPLv3
 
 cmon is a weewx extension to monitor computer metrics such as cpu usage,
 memory use, disk space, and ups status.  It saves data to its own database,
